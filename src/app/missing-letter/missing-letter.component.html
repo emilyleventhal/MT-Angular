@@ -1,25 +1,16 @@
 <div class="letter_options">
-  <div class="letters"
-       fxLayout="row"
-       fxLayoutAlign="center"
-       fxLayoutGap="10px"
-       fxLayoutGap.xs="0">
+  <div class="letters" fxLayout="row" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
     <div class="letter foldout" *ngFor="let tile of tiles" [ngClass]="tile.state">{{tile.letterDisplayed}}</div>
   </div>
 
   <div class="select-a-tile">
 
-    <h2>SELECT A TILE:</h2>
+    <h2>ELIGE UN AZULEJO:</h2>
 
-    <div class="options"
-         [@listAnimation]="options.length"
-         fxLayout="row"
-         fxLayoutAlign="center"
-         fxLayoutGap="10px"
-         fxLayoutGap.xs="0">
-      <button mat-button class="letter foldout" *ngFor="let o of options"
-              (click)="selectLetter(o)"
-              [ngClass]="isIncorrectChoice(o) ? 'incorrect' : ''">{{o}}
+    <div class="options" [@listAnimation]="options.length" fxLayout="row" fxLayoutAlign="center" fxLayoutGap="10px"
+      fxLayoutGap.xs="0">
+      <button mat-button class="letter foldout" *ngFor="let o of options" (click)="selectLetter(o)"
+        [ngClass]="isIncorrectChoice(o) ? 'incorrect' : ''">{{o}}
       </button>
     </div>
   </div>
