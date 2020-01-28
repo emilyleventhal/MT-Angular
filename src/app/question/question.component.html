@@ -21,7 +21,7 @@
   <div  *ngIf="state==='asking' && question.preferNotToAnswer" class="preferNotToAnswer">
     <button class="option preferNotToAnswer" mat-raised-button
       (click)="selected('Prefer not to answer')">
-      Prefer not to answer
+      Prefiero no responder
     </button>
   </div>
 
@@ -40,7 +40,7 @@
     <div class="incorrect" [hidden]="!(this.state === 'incorrect')" fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="10px"
       fxLayoutGap.xs="0">
       <mat-progress-bar value="{{waitPercent}}"></mat-progress-bar>
-      Whoops. That wasn't the right answer. Please wait a moment and try again.</div>
+      Esa no fue la respuesta correcta. Por favor espera un momento e intenta nuevamente.</div>
   </div>
 
 

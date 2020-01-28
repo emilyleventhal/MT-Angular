@@ -60,7 +60,7 @@
  <div *ngIf="state === states.TRAINING">
   <mat-card class="training">
     <mat-card-content>
-        <div class="round-header">Round {{roundIndex+ 1}} of {{totalRounds}}</div>
+        <div class="round-header">Ronda {{roundIndex+ 1}} de {{totalRounds}}</div>
         <div class="progress">
           <app-progress-bar [items]="round.scenarios"></app-progress-bar>
         </div>
@@ -83,8 +83,8 @@
     <mat-card-content>
     <app-training-score [round]="round" [roundNumber]="roundIndex + 1"></app-training-score>
         <div class="spacer"></div>
-        <button *ngIf="!isComplete()" class="continue"  mat-raised-button (click)="nextRound()">Start Round {{roundIndex+2}}</button>
-        <button *ngIf="isComplete()" class="continue"  mat-raised-button (click)="nextRound()">Continue</button>
+        <button *ngIf="!isComplete()" class="continue"  mat-raised-button (click)="nextRound()">Comienca Ronda {{roundIndex+2}}</button>
+        <button *ngIf="isComplete()" class="continue"  mat-raised-button (click)="nextRound()">Sigue</button>
     </mat-card-content>
   </mat-card>
 </div>
@@ -93,7 +93,7 @@
     <mat-card-content>
       <app-final-score [session]="currentSession" [rounds]="rounds" [totalScore]="totalScore"></app-final-score>
       <div class="spacer"></div>
-      <button class="continue"  mat-raised-button (click)="close()">Continue</button>
+      <button class="continue"  mat-raised-button (click)="close()">Sigue</button>
     </mat-card-content>
   </mat-card>
 </div>

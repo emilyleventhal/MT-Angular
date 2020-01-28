@@ -5,7 +5,7 @@
 
   <div class="select-a-tile">
 
-    <h2>ELIGE UN AZULEJO:</h2>
+    <h2>SELECCIONA UNA FICHA:</h2>
 
     <div class="options" [@listAnimation]="options.length" fxLayout="row" fxLayoutAlign="center" fxLayoutGap="10px"
       fxLayoutGap.xs="0">
@@ -16,7 +16,7 @@
   </div>
 
 
-  <div *ngIf="state === 'correct'" class="correct-message">Correct!</div>
+  <div *ngIf="state === 'correct'" class="correct-message">¡Correcto!</div>
   <div *ngIf="state === 'incorrect'" class="incorrect-message">Hmm. That doesn't look right! Please try again.</div>
 
 </div>

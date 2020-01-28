@@ -7,81 +7,83 @@
     "study": "Calm Thinking",
     "steps": [
       {
-        "title": "Use Your Imagination",
+        "title": "Usa tu imaginación",
         "pages": [
           {
             "elements": [
               {
                 "type": "Paragraph",
                 "stimulusName": "readiness_p1",
-                "content": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared."
+                "content": "En este ejercicio, piensa en una situación PRÓXIMA que esperas que lo haga sentir ansioso, preocupado o asustado."
               },
-              { "type": "Paragraph",
-              "stimulusName": "readiness_p1",
-              "content": "Pick a situation that you worry might go badly, or that you expect will evoke symptoms related to anxiety (e.g., racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that you’re likely to actually encounter."
+              {
+                "type": "Paragraph",
+                "stimulusName": "readiness_p1",
+                "content": "Elija una situación que le preocupe, que podría salir mal, o que espera evocará síntomas relacionados con la ansiedad (por ejemplo, latidos cardíacos o sudoración). Cualquier situación que te haga sentir bastante ansioso o asustado funcionará, siempre y cuando sea una situación que probablemente encuentres."
               }
             ]
           },
-          { "auto_continue": true,
-            "title": "Use Your Imagination",
+          {
+            "auto_continue": true,
+            "title": "Usa tu imaginación",
             "elements": [
-                {
+              {
                 "type": "Header",
                 "stimulusName": "readiness_heading",
-                "content": "Please describe the situation in a few words:"
+                "content": "Describa la situación en pocas palabras:"
               },
               {
                 "type": "FillInBlank",
                 "stimulusName": "readiness_situation",
-                "question": "Please describe the situation in a few words.",
+                "question": "Describa la situación en pocas palabras.",
                 "maxCharacters": 100
               }
             ]
           },
           {
-            "title": "Use Your Imagination",
+            "title": "Usa tu imaginación",
             "elements": [
               {
                 "type": "LargeHeader",
                 "stimulusName": "use1",
-                "content": "Use Your Imagination"
+                "content": "Usa tu imaginación"
               },
               {
                 "type": "BulletList",
                 "stimulusName": "readiness_p3",
-                "title": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).",
+                "title": "Imagina la situación lo más vívidamente posible (es decir, para que se sienta muy real).",
                 "bullets": [
-                  "Try to imagine you are actually in the situation.",
-                  "Play out the specific parts of the situation in your head.",
-                  "Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation.",
-                  "Think about the kinds of things you would think or feel if you were actually there."
+                  "Trata de imaginar que realmente estás en la situación.",
+                  "Piensa en las partes específicas de la situación en tu mente.",
+                  "Intenta imaginar usar todos tus sentidos mientras piensas en esta situación. Piensa en las cosas que verías, oirías y olerías si realmente estuvieras en esa situación.",
+                  "Piensa en el tipo de cosas que pensarías o sentirías si estuvieras allí."
                 ]
               },
               {
                 "type": "Paragraph",
                 "stimulusName": "readiness_p5",
-                "content": "Please click the \"Begin\" button below and play this situation in your head for the next 20 seconds. We will tell you when the 20 seconds are up–make sure the sound on your device is not muted."
+                "content": "Haga clic en el botón \"Comienza\" y piense en esta situación en su mente durante los próximos 20 segundos. Te diremos cuando pasen los 20 segundos. Asegura de que el sonido de tu aparato no esté silenciado."
               },
               {
                 "type": "Countdown",
                 "stimulusName": "readiness_timer",
-                "delayInSeconds":20,
-                "content": "We will tell you when the 20 seconds are up."
+                "delayInSeconds": 20,
+                "content": "Te diremos cuando pasen los 20 segundos."
               }
             ]
           },
           {
-            "title": "Use Your Imagination",
+            "title": "Usa tu imaginación",
             "elements": [
               {
                 "type": "LargeHeader",
                 "stimulusName": "use2",
-                "content": "Use Your Imagination"
+                "content": "Usa tu imaginación"
               },
               {
                 "type": "Header",
                 "stimulusName": "readiness_heading",
-                "content": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider."
+                "content": "¿Qué tan ansioso te sintió (al más alto nivel de ansiedad) al completar la tarea de imaginería? Haga clic en la barra para ver el control deslizante."
               },
               {
                 "type": "Slider",
@@ -91,76 +93,77 @@
               }
             ]
           },
-          { "auto_continue": true,
+          {
+            "auto_continue": true,
             "elements": [
               {
                 "type": "LargeHeader",
                 "stimulusName": "use3",
-                "content": "Use Your Imagination"
+                "content": "Usa tu imaginación"
               },
               {
                 "type": "Question",
                 "stimulusName": "readiness_vivid_question",
-                "question": "How vividly did you imagine the situation?",
+                "question": "¿Qué tan vívidamente imaginaste la situación?",
                 "options": [
-                  "Not at all vivid",
-                  "Somewhat vivid",
-                  "Moderately vivid",
-                  "Very vivid",
-                  "Totally vivid"
+                  "No vívida",
+                  "Algo vívida",
+                  "Moderadamente vívida",
+                  "Muy vívido",
+                  "Totalmente vívida"
                 ],
-                "preferNotToAnswer":true
+                "preferNotToAnswer": true
               }
-              ]
+            ]
+          },
+          {
+            "auto_continue": true,
+            "elements": [
+              {
+                "type": "LargeHeader",
+                "stimulusName": "use4",
+                "content": "Usa tu imaginación"
               },
-              { "auto_continue": true,
-                "elements": [
-                  {
-                    "type": "LargeHeader",
-                    "stimulusName": "use4",
-                    "content": "Use Your Imagination"
-                  },
               {
                 "type": "Question",
                 "stimulusName": "readiness_badly_question",
-                "question": "How likely is it that this situation or task will turn out well versus turn out badly?",
+                "question": "¿Qué tan probable es que esta situación o tarea salga bien o mal?",
                 "options": [
-                  "Very likely to turn out well",
-                  "Somewhat likely to turn out well",
+                  "Muy probable que salga bien",
+                  "Algo probable que salga bien",
                   "Neutral             ",
-                  "Somewhat likely to turn out badly",
-                  "Very likely to turn out badly"
+                  "Algo probable que salga mal",
+                  "Muy probable que salga mal"
                 ],
-                "preferNotToAnswer":true
+                "preferNotToAnswer": true
               }
-                ]
+            ]
+          },
+          {
+            "auto_continue": true,
+            "elements": [
+              {
+                "type": "LargeHeader",
+                "stimulusName": "use5",
+                "content": "Usa tu imaginación"
               },
-              {"auto_continue": true,
-                "elements": [
-                  {
-                    "type": "LargeHeader",
-                    "stimulusName": "use5",
-                    "content": "Use Your Imagination"
-                  },
-                {
-                  "type": "Question",
-                  "stimulusName": "readiness_manageable_question",
-                  "question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                  "options": [
-                    "Very well",
-                    "Somewhat well",
-                    "Neutral",
-                    "Somewhat badly",
-                    "Very badly"
-                  ],
-                  "preferNotToAnswer":true
-                }
-                  ]
+              {
+                "type": "Question",
+                "stimulusName": "readiness_manageable_question",
+                "question": "Si esta situación resultara mal, ¿qué tan bien o mal serías capaz de manejarla?",
+                "options": [
+                  "Muy bien",
+                  "Algo bien",
+                  "Neutral",
+                  "Algo mal",
+                  "Muy mal"
+                ],
+                "preferNotToAnswer": true
               }
             ]
           }
-
         ]
       }
     ]
-
+  }
+]

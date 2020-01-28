@@ -4,7 +4,7 @@
        fxLayoutGap="10px"
   >
     <mat-form-field>
-      <input matInput placeholder="PLEASE FILL IN THE BLANK:" [formControl]="word" [errorStateMatcher]="matcher">
+      <input matInput placeholder="POR FAVOR LLENA EL ESPACIO EN BLANCO:" [formControl]="word" [errorStateMatcher]="matcher">
       <mat-error *ngIf="word.hasError('minlength') && !word.hasError('required')">
         Please enter a word of three letters or more
       </mat-error>

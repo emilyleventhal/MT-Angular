@@ -6,5 +6,5 @@
   <div class="display-area">
     <app-page *ngIf="currentPage" [page]="currentPage" (event)="handleEvent($event)" (done)="progressState($event)"></app-page>
   </div>
-  <button class="continue mat-button" *ngIf="continueButtonVisible()" mat-raised-button (click)="continue()">Continue</button>
+  <button class="continue mat-button" *ngIf="continueButtonVisible()" mat-raised-button (click)="continue()">Sigue</button>
 </div>
