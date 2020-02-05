@@ -15,18 +15,18 @@
               {
                 "type": "LargeHeader",
                 "stimulusName": "vividHeader",
-                "content": "Vividness Check"
+                "content": "Chequeo de vivacidad"
               },
               {
                 "type": "Question",
                 "stimulusName": "vividness",
-                "question": "How vividly did you imagine the scenario (as if you were really there and experiencing it first hand)?",
+                "question": "¿Qué tan vívidamente imaginaste la situación (como si realmente estuvieras allí)?",
                 "options": [
-                  "Not at all",
-                  "Slightly",
-                  "Somewhat",
-                  "Mostly",
-                  "Very Much"
+                  "De ningún modo",
+                  "Ligeramente",
+                  "Algo",
+                  "Principalmente",
+                  "Mucho"
                 ],
                 "preferNotToAnswer":true
               }

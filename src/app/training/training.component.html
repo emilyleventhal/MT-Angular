@@ -83,7 +83,7 @@
     <mat-card-content>
     <app-training-score [round]="round" [roundNumber]="roundIndex + 1"></app-training-score>
         <div class="spacer"></div>
-        <button *ngIf="!isComplete()" class="continue"  mat-raised-button (click)="nextRound()">Comienca Ronda {{roundIndex+2}}</button>
+        <button *ngIf="!isComplete()" class="continue"  mat-raised-button (click)="nextRound()">Comienza ronda {{roundIndex+2}}</button>
         <button *ngIf="isComplete()" class="continue"  mat-raised-button (click)="nextRound()">Sigue</button>
     </mat-card-content>
   </mat-card>

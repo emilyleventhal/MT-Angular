@@ -1,13 +1,13 @@
 [
   {
     "session": "firstSession",
-    "title": "Sesión de Entrenamiento 1",
+    "title": "Sesión de entrenamiento 1",
     "subTitle": "Training Stories",
     "conditioning": "Training",
     "study": "Calm Thinking",
     "steps": [
       {
-        "title": "Sesión de Entrenamiento 1",
+        "title": "Sesión de entrenamiento 1",
         "pages": [
           {
             "elements": [
@@ -41,13 +41,13 @@
   },
   {
     "session": "secondSession",
-    "title": "Sesión de Entrenamiento 2",
+    "title": "Sesión de entrenamiento 2",
     "subTitle": "Training Stories",
     "conditioning": "Training",
     "study": "Calm Thinking",
     "steps": [
       {
-        "title": "Sesión de Entrenamiento 2",
+        "title": "Sesión de entrenamiento 2",
         "pages": [
           {
             "elements": [
